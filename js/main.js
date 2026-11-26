@@ -38,7 +38,7 @@ document.addEventListener('click', (e) => {
 function request(url, params=null) {
     return new Promise((resolve, reject) => {
         let req = new XMLHttpRequest()
-	    req.open('post', url)
+	    req.open('get', url)
 
 	    req.onreadystatechange = () => {
             if (req.readyState == 4) {
