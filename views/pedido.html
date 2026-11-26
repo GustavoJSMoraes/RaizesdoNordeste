@@ -1,0 +1,46 @@
+    <div class="panel-info">
+        <h3>Teste de transição dos status do pedido</h3>
+        <h4>Parâmetros de teste:</h4>
+        <p>Cliente em atendimento</p>
+        <p>Status inicial: pedido aberto</p>
+    </div>
+
+    
+    <div class="div-corpo">
+        <div>
+            <fieldset>                
+                <p>Cliente em atendimento</p>
+                <button id="btn-selecionar" type="button">Selecionar produto</button>
+                <button id="btn-finalizar" type="button">Finalizar pedido</button>                
+            </fieldset>
+            <fieldset>
+
+                <label for="Pedido-id">ID do Pedido:</label>
+                <input id="pedido-id" type="text" disabled name="pedidod-id">
+            </fieldset>
+
+            <hr>
+            <fieldset>                
+                <p>Acesso ao Módulo externo de Pagamento</p>
+                <button id="btn-pagar" type="button">Efetuar pagamento</button>
+            </fieldset>
+            <hr>
+            <fieldset>                
+                <p>Cozinha acessa pedido</p>
+                <button id="btn-preparar" type="button">Preparar pedido</button>
+                <button id="btn-preparo-pronto" type="button">Finalizar preparação</button>
+            </fieldset>
+            <hr>
+            <fieldset>                
+                <p>Entrega</p>
+                <button id="btn-entregar" type="button">Entregar pedido</button>
+            </fieldset>
+
+        </div>
+
+        <div id="div-res" class="div-res not-visible">
+            
+        </div>
+    </div>
+
+</div>
